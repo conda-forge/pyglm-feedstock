@@ -1,5 +1,5 @@
 {% set name = "pyglm" %}
-{% set version = "2.7.3" %}
+{% set version = "2.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyglm-{{ version }}.tar.gz
-  sha256: 4ccb6c027622b948aebc501cd8c3c23690293115dc98108f8ed3b7fd533b398f
+  sha256: 51a8b027a60a30bd48b3d9fdbbc44f22b8a061ad2c0e9fbbfa80282240f250af
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
