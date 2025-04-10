@@ -1,5 +1,5 @@
 {% set name = "pyglm" %}
-{% set version = "2.8.1" %}
+{% set version = "2.8.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyglm-{{ version }}.tar.gz
-  sha256: 74eb44cf338e09a03bed6fd3804c6d1556dac79a00220367d70a0cc18ff21733
+  sha256: b4847b0b60888b5c649b17b0a72d1f3f1ee07086cd5f431a7d977fad3cdbadab
 
 build:
   number: 0
