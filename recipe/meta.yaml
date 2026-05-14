@@ -31,8 +31,11 @@ test:
     - glm
   commands:
     - pip check
+    - python run_test.py
   requires:
     - pip
+  files:
+    - run_test.py
 
 about:
   home: https://github.com/Zuzu-Typ/PyGLM
