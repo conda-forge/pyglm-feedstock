@@ -9,6 +9,8 @@ Package license: Zlib
 
 Summary: OpenGL Mathematics library for Python
 
+Development: https://github.com/Zuzu-Typ/PyGLM
+
 Current build status
 ====================
 
